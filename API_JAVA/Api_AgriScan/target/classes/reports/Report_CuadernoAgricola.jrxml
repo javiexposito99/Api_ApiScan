@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Report_CuadernoAgricola" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="86e7f9ea-ea49-4318-9d88-bfb6642a87c2">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nombre" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="89" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="80" height="80" uuid="ab5676a1-1805-412d-abe9-285501921a48">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["logo-icono.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="90" y="20" width="100" height="20" uuid="4b797948-5f6a-4d0a-a9cc-c9ea20bf6f7d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Agri Scan Solutions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="50" width="120" height="20" uuid="7f8ac382-89d3-4e8e-b9a1-5731b267dda3"/>
+				<text><![CDATA[Cuaderno de Explotación ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="493" y="20" width="46" height="20" uuid="895e342e-f1fb-424a-b59a-dda1129235a2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[Usuario]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="493" y="50" width="62" height="20" uuid="172996d2-fe9f-44ea-8f88-e7c900a45a2b"/>
+				<textFieldExpression><![CDATA[51111111S]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="44" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="555" height="29" uuid="483a22ca-b280-496c-b205-92353d1d15cd"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.1 DATOS GENERALES DE LA EXPLOTACIÓN]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="1" width="555" height="1" uuid="d57e0cec-e428-4048-96b2-2a663bbb8360"/>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="322" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="160" uuid="9adadd85-dc62-4ba4-85e5-52c1ba35dd1c"/>
+				<staticText>
+					<reportElement x="9" y="9" width="161" height="21" uuid="a97b0fdd-9608-4123-bb9f-80ad50335606"/>
+					<text><![CDATA[Nombre y apellidos o razón social:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="390" y="9" width="20" height="21" uuid="85203289-a67d-4ab9-9bbe-26eab8d85200"/>
+					<text><![CDATA[Nif:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="9" y="40" width="190" height="21" uuid="a4f2b6f0-6ac5-4e24-bfab-06c406b6e148"/>
+					<text><![CDATA[Nº Registro de Explotaciones Nacional:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="9" y="70" width="50" height="21" uuid="cf7d26bb-1e89-4fd8-8843-9a57fd9fe5c8"/>
+					<text><![CDATA[Dirección:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="390" y="70" width="50" height="21" uuid="55cc454b-f773-43a0-9531-c211990c44d7"/>
+					<text><![CDATA[Localidad:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="10" y="100" width="48" height="21" uuid="cb903287-2d02-4884-b52d-dac242e1e0d4"/>
+					<text><![CDATA[C. Postal:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="390" y="99" width="48" height="21" uuid="83cbec34-271f-4166-a637-41e250f979c1"/>
+					<text><![CDATA[Provincia:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="10" y="130" width="110" height="21" uuid="ecb8ac32-8d03-4325-bfb2-b76e91b90687"/>
+					<text><![CDATA[Tipo de representación:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="220" y="130" width="48" height="21" uuid="9bba7688-90f5-4636-a738-830b330a230b"/>
+					<text><![CDATA[Teléfono:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="392" y="130" width="38" height="21" uuid="4df1d634-5696-4a58-b5b3-35b54e54eb2c"/>
+					<text><![CDATA[E-mail:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="160" width="555" height="30" uuid="bf6d40d0-3dcb-4812-bc81-d6c7e02f0763"/>
+					<textElement textAlignment="Center">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[TITULAR O REPRESENTANTE DE LA EXPLOTACIÓN]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="0" y="190" width="555" height="128" uuid="d41280cf-6056-4223-acb8-3870baabe748"/>
+				<staticText>
+					<reportElement x="10" y="9" width="91" height="21" uuid="63b9f27c-3fa8-4c58-a9fc-1db6d12b72ff"/>
+					<text><![CDATA[Nombre y apellidos:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="390" y="9" width="20" height="21" uuid="35e7cd83-7352-41e7-b923-fce81fd0e00d"/>
+					<text><![CDATA[Nif:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="10" y="41" width="50" height="21" uuid="bea3e885-7cff-440b-9833-31a021720387"/>
+					<text><![CDATA[Dirección:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="391" y="41" width="50" height="21" uuid="6f77034f-f304-4ef5-8e80-4090ba1195ae"/>
+					<text><![CDATA[Localidad:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="11" y="71" width="48" height="21" uuid="92f3e274-f3f9-402f-b771-4c9550c26245"/>
+					<text><![CDATA[C. Postal:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="391" y="70" width="48" height="21" uuid="e5f54a4d-83df-47ea-b54c-35f4ba847a6a"/>
+					<text><![CDATA[Provincia:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="11" y="101" width="110" height="21" uuid="a0eb86e7-9dda-4039-85b4-a23230f077d9"/>
+					<text><![CDATA[Tipo de representación:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="221" y="101" width="48" height="21" uuid="adc010ab-7d47-4c00-bb8d-18b5097715f4"/>
+					<text><![CDATA[Teléfono:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="393" y="101" width="38" height="21" uuid="5c221657-f735-418e-b8f1-427280c0e8e9"/>
+					<text><![CDATA[E-mail:]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="226" splitType="Stretch">
+			<rectangle>
+				<reportElement x="340" y="8" width="215" height="80" uuid="43817e3a-405f-48af-9275-52334162b68f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="432" y="140" width="30" height="20" uuid="1bea4485-5d69-4e45-8ddd-4ba7156e6f8e"/>
+				<text><![CDATA[AÑO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="170" width="80" height="20" uuid="a071b1ea-0d3d-43e8-b0d3-f34b40b6c4a4"/>
+				<text><![CDATA[de la sección nº]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="170" width="40" height="20" uuid="08d64138-1a1e-4ffd-9570-ae335e686fcd"/>
+				<text><![CDATA[Hoja nº]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="98" width="554" height="32" uuid="76d592e2-9f8a-4140-b2e0-e51a9efc49a7"/>
+				<text><![CDATA[ (1) La persona firmante se hace responsable de la veracidad de los datos consignados en el presente cuaderno de explotación.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="180" height="20" uuid="69659d49-9e03-40fe-9518-ac5df0ef2519"/>
+				<text><![CDATA[Explotación/ Titular de la explotación:]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
